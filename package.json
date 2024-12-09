@@ -17,7 +17,8 @@
         "coverage-html": "rimraf coverage && nyc report --reporter html",
         "coverage-coveralls": "nyc report --reporter text-lcov | coveralls",
         "typewiz": "npm run clean && webpack --config webpack/typewiz.config.js --progress && npm run test",
-        "prepublishOnly": "npm run build"
+        "prepublishOnly": "npm run build",
+        "jquery": "3.7.1"
     },
     "repository": {
         "type": "git",
